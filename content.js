@@ -6,7 +6,7 @@
 */
 window.GOODMOMENT_CONTENT = {
   hero: {
-    kicker: "Good Moment brings joy",
+    kicker: "Good Moments bring joy",
     title: "MAKE MORE\nOF THE MOMENT.",
     subtitle: "Beautiful things, put together for a life well lived.",
     cta: "Explore the moments →",
