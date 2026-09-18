@@ -1,12 +1,12 @@
 /*
-  UVUYO CONTENT FILE
-  ------------------
+  GOOD MOMENT CONTENT FILE
+  -------------------------
   This is the main file to edit.
   Change copy, image URLs, prices and links here without touching the HTML.
 */
-window.UVUYO_CONTENT = {
+window.GOODMOMENT_CONTENT = {
   hero: {
-    kicker: "UVUYO means joy",
+    kicker: "Good Moment brings joy",
     title: "MAKE MORE\nOF THE MOMENT.",
     subtitle: "Beautiful things, put together for a life well lived.",
     cta: "Explore the moments →",

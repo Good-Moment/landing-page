@@ -1,4 +1,4 @@
-const C = window.UVUYO_CONTENT;
+const C = window.GOODMOMENT_CONTENT;
 
 function bindContent() {
   document.querySelectorAll('[data-content]').forEach(el => {
@@ -60,7 +60,7 @@ function renderFinds() {
 
 function renderSocial() {
   document.querySelector('#socialGrid').innerHTML = C.social.map((src, i) => `
-    <a href="#" aria-label="UVUYO social image ${i+1}"><img src="${src}" alt="UVUYO moment ${i+1}"></a>
+    <a href="#" aria-label="Good Moment social image ${i+1}"><img src="${src}" alt="Good Moment moment ${i+1}"></a>
   `).join('');
 }
 

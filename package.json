@@ -1,0 +1,13 @@
+{
+  "name": "good-moment",
+  "version": "1.0.0",
+  "description": "Good Moment - Joy, put together",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server -p 8080 -o",
+    "serve": "http-server -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
