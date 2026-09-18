@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UVUYO — Joy, put together.</title>
+  <meta name="description" content="Curated moments, beautiful things, and stories for a life well lived." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">UVUYO means joy — curated moments for everyday life.</div>
+  <header class="site-header">
+    <a class="wordmark" href="#">UVUYO</a>
+    <button class="menu-toggle" aria-label="Open menu">Menu</button>
+    <nav class="nav-primary" aria-label="Primary navigation">
+      <a href="#moments">Moments</a>
+      <a href="#journal">Journal</a>
+      <a href="#gifts">Gifts</a>
+      <a href="#shop">Shop</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#newsletter">Search</a>
+      <a href="#shop">Bag (0)</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <img data-content="hero.image" class="hero-image" alt="A joyful long lunch with friends" />
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-content="hero.kicker"></p>
+        <h1 data-content="hero.title"></h1>
+        <p class="hero-sub" data-content="hero.subtitle"></p>
+        <a class="button light" href="#moments" data-content="hero.cta"></a>
+      </div>
+    </section>
+
+    <section class="intro section-pad">
+      <p class="eyebrow">UVUYO / oo-VOO-yo</p>
+      <div class="intro-grid">
+        <h2>Joy, put together.</h2>
+        <p>We curate the things that make a moment feel considered — so you can spend less time searching and more time living it.</p>
+      </div>
+    </section>
+
+    <section class="moments section-pad" id="moments">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Shop by moment</p>
+          <h2>What are you in the mood for?</h2>
+        </div>
+        <a href="#shop" class="text-link">See all moments →</a>
+      </div>
+      <div class="moment-grid" id="momentGrid"></div>
+    </section>
+
+    <section class="featured-moment" id="shop">
+      <div class="featured-image-wrap">
+        <img data-content="featured.image" class="featured-image" alt="The Long Lunch" />
+      </div>
+      <div class="featured-copy section-pad compact">
+        <p class="eyebrow" data-content="featured.kicker"></p>
+        <h2 data-content="featured.title"></h2>
+        <p class="lede" data-content="featured.description"></p>
+        <div class="product-list" id="featuredProducts"></div>
+        <div class="button-row">
+          <a class="button dark" data-content="featured.primaryCta"></a>
+          <a class="button ghost" data-content="featured.secondaryCta"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto-band">
+      <p>GOOD THINGS HAPPEN<br/>WHEN WE LINGER.</p>
+    </section>
+
+    <section class="journal section-pad" id="journal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">The UVUYO Journal</p>
+          <h2>Stories that become moments.</h2>
+        </div>
+        <p class="section-note">Places, people, things and ideas for making more of the everyday.</p>
+      </div>
+      <div class="journal-grid" id="journalGrid"></div>
+    </section>
+
+    <section class="finds section-pad" id="gifts">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">New finds</p>
+          <h2>Things we're glad we found.</h2>
+        </div>
+        <a href="#shop" class="text-link">Shop everything →</a>
+      </div>
+      <div class="finds-grid" id="findsGrid"></div>
+    </section>
+
+    <section class="editorial-banner">
+      <img data-content="banner.image" alt="A thoughtful just because gift" />
+      <div class="editorial-banner-copy">
+        <p class="eyebrow" data-content="banner.kicker"></p>
+        <h2 data-content="banner.title"></h2>
+        <p data-content="banner.subtitle"></p>
+        <a class="button light" href="#shop" data-content="banner.cta"></a>
+      </div>
+    </section>
+
+    <section class="philosophy section-pad">
+      <div>
+        <p class="eyebrow">Our point of view</p>
+        <h2>Less stuff.<br/>More feeling.</h2>
+      </div>
+      <div class="philosophy-copy">
+        <p>We believe the things we surround ourselves with matter — not because we need more things, but because the right ones can change how a moment feels.</p>
+        <p>A beautiful glass makes you pour the drink. A tablecloth makes Tuesday dinner feel like something. The right gift tells someone you really know them.</p>
+        <p>We find those things. Then we put them together.</p>
+        <a href="#" class="text-link">Our story →</a>
+      </div>
+    </section>
+
+    <section class="social section-pad">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Moments from out there</p>
+          <h2>@uvuyo</h2>
+        </div>
+        <p class="section-note">Tables, places, people and details worth remembering.</p>
+      </div>
+      <div class="social-grid" id="socialGrid"></div>
+    </section>
+
+    <section class="newsletter section-pad" id="newsletter">
+      <p class="eyebrow">Notes from UVUYO</p>
+      <h2>More joy in your inbox.</h2>
+      <p>New moments, good finds, places worth knowing and occasional notes from us.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Connected! Replace this demo form with Shopify Email or Klaviyo.');">
+        <input type="email" required placeholder="Your email address" aria-label="Email address" />
+        <button type="submit">I'm in →</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <div class="wordmark footer-mark">UVUYO</div>
+      <p>Joy, put together.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#moments">Moments</a><a href="#journal">Journal</a><a href="#gifts">Gifts</a><a href="#shop">Shop</a><a href="#">Our Story</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">TikTok</a><a href="#">Contact</a><a href="#">Shipping & Returns</a>
+    </div>
+    <p class="footer-note">Cape Town in spirit. Everywhere in practice.</p>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
